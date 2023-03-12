@@ -223,7 +223,7 @@ sections:
         <table style = 'width:100%'> 
           <tr> <td> <h4> Proofs and Reasoning for Computer Scientists </h4> </td> <td style="text-align: right"> <em> 2019 - 2023 </em>  </td> </tr>
         </table>
-        <p> During my PhD, I taught mathematical proofs basic mathematical concepts to first year computer science students.  </p>
+        <p> During my PhD, I taught mathematical proofs and basic mathematical concepts to first year computer science students.  </p>
     design:
       columns: '2'
   
