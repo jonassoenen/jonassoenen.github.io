@@ -112,3 +112,6 @@ extensions:
 security:
   # Allow frame for embedding speaker notes in slides
   allow_frame: true
+
+power_ups: 
+  hide_published_with: true
