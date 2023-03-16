@@ -74,11 +74,11 @@ social:
     link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'jonassoenen5@hotmail.com'
+email: 
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-
+<!-- 
 Jonas Soenen is a PhD in Machine Learning looking to make the jump to industry. 
-{style="text-align: justify;"}
+{style="text-align: justify;"} -->

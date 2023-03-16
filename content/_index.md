@@ -12,22 +12,7 @@ sections:
       username: admin
       # Override your bio text from `authors/admin/_index.md`?
       text:
-  # - block: features
-  #   content:
-  #     title: Skills
-  #     items:
-  #       - name: R
-  #         description: 90%
-  #         icon: r-project
-  #         icon_pack: fab
-  #       - name: Statistics
-  #         description: 100%
-  #         icon: chart-line
-  #         icon_pack: fas
-  #       - name: Photography
-  #         description: 10%
-  #         icon: camera-retro
-  #         icon_pack: fas
+  
   - block: experience
     id: education
     content:
@@ -226,23 +211,7 @@ sections:
         <p> During my PhD, I taught mathematical proofs and basic mathematical concepts to first year computer science students.  </p>
     design:
       columns: '2'
-  
 
-  - block: collection
-    id: publications
-    content:
-      title: Publications
-      text: |-
-        {{% callout note %}}
-        TODO list all my publications
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
 
   - block: features
     content:
@@ -262,9 +231,35 @@ sections:
           description: Music, Podcasts, Audiobooks </br> Sci-fi, Adventure, Informative books
           icon: 🎧📖
           icon_pack: emoji
-        # - name: Reading
-        #   description: Both Fiction and informative books
-        #   icon: 📖
-        #   icon_pack: emoji
+
+
+  - block: markdown 
+    id: publications 
+    content: 
+      title: All publications
+      text: |-
+        <ul> 
+          <li> <u> Soenen, J.</u>, Yurtman, A., Becker, T., D’hulst, R., Vanthournout, K., Meert, W., & Blockeel, H. (2023). <b> Scenario generation of residential electricity consumption through sampling of historical data.</b> <em> Sustainable Energy, Grids and Networks </em> 
+          </li>
+          <li> 
+            Botman, L., <u> Soenen, J. </u>, Theodorakos, K., Yurtman, A., Bekker, J., Vanthournout, K., Blockeel, H. De Moor, B. & Lago, J. (2022). <b> A scalable ensemble approach to forecast the electricity consumption of households. </b> <em> IEEE Transactions on Smart Grid </em>
+          </li> 
+          <li>
+            <u> Soenen, J. </u>, Van Wolputte, E., Perini, L., Vercruyssen, V., Meert, W., Davis, J., & Blockeel, H. (2021). <b> The effect of hyperparameter tuning on the comparative evaluation of unsupervised anomaly detection methods. </b> <em> In Proceedings of the KDD'21 Workshop on Outlier Detection and Description </em>
+          </li> 
+          <li> 
+            <u> Soenen, J. </u>, Dumančić, S., Van Craenendonck, T., & Blockeel, H. (2021). <b> Tackling noise in active semi-supervised clustering.</b> <em> In Machine Learning and Knowledge Discovery in Databases: European Conference, ECML PKDD 2020 </em>
+
+          </li>
+
+        </ul> 
+
+
+    design: 
+      columns: '1'
+
+
+
+       
 
 ---
